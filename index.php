@@ -2,7 +2,7 @@
 <?php
 session_start(); 
 include "php/v/header.php";
-//validación de la sesion
+
 if (isset($_SESSION['id_usuario'])) {
   switch ($_SESSION['privilegio']) {
     case 1:
